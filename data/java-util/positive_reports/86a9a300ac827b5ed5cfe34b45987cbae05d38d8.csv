@@ -1,0 +1,4 @@
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.druid.lifecycle.Lifecycle$AnnotationBasedHandler,NO_FIELD,start()V,84,90,0
+M,B,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,com.metamx.druid.lifecycle.Lifecycle$StartCloseHandler,NO_FIELD,<init>(Ljava/lang/Object;)V,118,127,0
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.druid.lifecycle.Lifecycle$StartCloseHandler,NO_FIELD,start()V,133,135,0
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.druid.lifecycle.Lifecycle,NO_FIELD,start()V,51,54,1

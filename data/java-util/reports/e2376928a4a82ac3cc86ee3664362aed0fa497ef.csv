@@ -1,0 +1,17 @@
+L,D,NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE,com.metamx.common.parsers.CSVParser$1,NO_FIELD,apply(Ljava/lang/String;)Ljava/lang/Object;,26,29,1
+M,V,EI_EXPOSE_REP,com.metamx.common.parsers.JSONParser,fieldNames,getFieldNames()Ljava/util/List;,39,39,0
+M,B,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,com.metamx.common.parsers.JSONIteratorParser$1,NO_FIELD,next()Ljava/util/Map;,37,40,0
+L,D,NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE,com.metamx.common.parsers.DelimitedParser$1,NO_FIELD,apply(Ljava/lang/String;)Ljava/lang/Object;,30,33,1
+M,B,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,com.metamx.common.lifecycle.Lifecycle$StartCloseHandler,NO_FIELD,<init>(Ljava/lang/Object;)V,118,127,0
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.common.lifecycle.Lifecycle$StartCloseHandler,NO_FIELD,start()V,133,135,0
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.common.lifecycle.Lifecycle$AnnotationBasedHandler,NO_FIELD,start()V,84,90,0
+M,V,EI_EXPOSE_REP,com.metamx.common.parsers.DelimitedParser,fieldNames,getFieldNames()Ljava/util/List;,72,72,0
+M,V,EI_EXPOSE_REP,com.metamx.common.parsers.CSVParser,fieldNames,getFieldNames()Ljava/util/List;,46,46,0
+M,B,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,com.metamx.common.parsers.CSVIteratorParser$1,NO_FIELD,next()Ljava/util/Map;,55,58,0
+M,B,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,com.metamx.common.parsers.DelimitedIteratorParser$1,NO_FIELD,next()Ljava/util/Map;,55,58,0
+M,B,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,com.metamx.common.lifecycle.Lifecycle,NO_FIELD,start()V,51,54,1
+L,P,SIC_INNER_SHOULD_BE_STATIC_ANON,com.metamx.common.parsers.DelimitedIteratorParser,NO_FIELD,parse(Lcom/metamx/common/parsers/CloseableIterator;)Lcom/metamx/common/parsers/CloseableIterator;,37,37,0
+L,P,SIC_INNER_SHOULD_BE_STATIC_ANON,com.metamx.common.parsers.JSONIteratorParser,NO_FIELD,parse(Lcom/metamx/common/parsers/CloseableIterator;)Lcom/metamx/common/parsers/CloseableIterator;,19,19,0
+M,D,URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD,com.metamx.common.parsers.DelimitedParser,delimiter,NO_METHOD,63,63,1
+L,P,SIC_INNER_SHOULD_BE_STATIC_ANON,com.metamx.common.parsers.CSVIteratorParser,NO_FIELD,parse(Lcom/metamx/common/parsers/CloseableIterator;)Lcom/metamx/common/parsers/CloseableIterator;,37,37,0
+L,P,SIC_INNER_SHOULD_BE_STATIC_ANON,com.metamx.common.parsers.CSVParser,valueFunction,<init>(Ljava/lang/String;)V,23,23,1
